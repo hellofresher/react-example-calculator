@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.App__Display {
+  color: #fff;
+  background-color: #858694;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: right;
+  padding: .2rem .7rem .1rem .5rem;
+}
+
+.App__ButtonPannel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  background-color: #858694;
+}
+
+.App__Button {
+  width: 25%;
+  margin-bottom: 1px;
+  display: inline-flex;
+}
+
+.App__Button > button {
+  background-color: #e0e0e0;
+  border: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 1px 0 0;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding: 0;
+}
+
+.App__Button.col__2 {
+  width: 50%;
+}
+
+.App__Button.is--operation button {
+  color: #fff;
+  background-color: #f5923e;
+}
